@@ -3,11 +3,12 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
+import Greeting from './components/Greeting';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <h1>Hello world</h1>,
+    element: <Greeting />,
   },
 ]);
 
