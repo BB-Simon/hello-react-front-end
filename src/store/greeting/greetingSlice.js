@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const apiRootURL = 'http://localhost:3000/api/v1'
+const apiRootURL = 'http://localhost:3000/api/v1';
 
 export const fetchGreeting = createAsyncThunk(
   'greeting/fetchGreeting',
